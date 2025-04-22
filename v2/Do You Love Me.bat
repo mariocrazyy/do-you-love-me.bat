@@ -25,7 +25,7 @@ echo              #
 echo               #
 echo               #
 pause
-start "" "lovemsg.vbs"
+start "" "love.vbs"
 exit
 
 :hate
