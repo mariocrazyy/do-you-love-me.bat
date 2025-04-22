@@ -1,1 +1,34 @@
-﻿਍汣൳䀊捥潨漠晦਍ㄺ਍潣潬⁲ൣ攊档⁯效汬Ɐ搠⁯潹⁵潬敶洠㽥⠠湡睳牥ഩ猊瑥⼠⁰湩異㵴਍晩⼠⁩椥灮瑵㴥礽獥朠瑯⁯潬敶਍晩⼠⁩椥灮瑵㴥渽⁯潧潴栠瑡൥椊⁦椯渠瑯┠湩異╴㴽敹ⱳ潮朠瑯⁯റഊ㨊潬敶਍捥潨䤠䰠癯⁥潹⁵潔⹯⸮਍捥潨吠楨⁳獩映牯礠畯ഺ攊档⹯ഠ攊档⁯†††⌣‣†††⌣ണ攊档⁯††⌣⌣⌣‣†⌣⌣⌣ണ攊档⁯†⌣⌣⌣⌣‣⌣⌣⌣⌣ണ攊档⁯⌠⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣਍捥潨⌠⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣†椠氠癵甠㨠ള攊档⁯†⌣⌣⌣⌣⌣⌣⌣⌣⌣ണ攊档⁯††⌣⌣⌣⌣⌣⌣⌣ണ攊档⁯†††⌠⌣⌣⌣⌣⌣਍捥潨†††††⌣⌣⌣ണ攊档⁯†††††⌠⌣਍捥潨†††††††ണ攊档⁯†††††††ണ攊档⁯†††††††ണ瀊畡敳਍硥瑩਍਍栺瑡൥挊獬਍捥潨䈠瑵䤠䰠癯⁥潙⹵‮⠺਍瑳牡⁴∢∠瑨灴㩳⼯睷⹷潹瑵扵⹥潣⽭慷捴㽨㵶穭ㅂ䝖䝅卣♕灰礽啧才噈慪兗婧䩈奬ㅗ≺਍慰獵൥�
+@echo off
+:1
+color c
+echo Hello, do you love me? (answer)
+set /p input=
+if /i %input%==yes goto love
+if /i %input%==no goto hate
+if /i not %input%==yes,no goto 1
+
+:love
+echo I Love you Too...
+echo This is for you:
+echo. 
+echo       ###       ###
+echo     #######   #######
+echo   ######### #########
+echo  #####################
+echo #######################   i luv u :3
+echo   ###################
+echo     ###############
+echo        ###########
+echo          #######
+echo            ###
+echo              #
+echo               #
+echo               #
+pause
+exit
+
+:hate
+cls
+echo But I Love You.. :(
+start "" "https://www.youtube.com/watch?v=mzB1VGEGcSU&pp=ygUMbHVjaWQgZHJlYW1z"
+pause
