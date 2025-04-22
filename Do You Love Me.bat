@@ -8,7 +8,7 @@ if /i %input%==no goto hate
 if /i not %input%==yes,no goto 1
 
 :love
-echo I Love you Too...
+echo I Love you Too..
 echo This is for you:
 echo. 
 echo       ###       ###
