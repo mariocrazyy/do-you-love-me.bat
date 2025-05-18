@@ -1,4 +1,3 @@
-
 @echo off
 :1
 color c
@@ -31,5 +30,8 @@ exit
 :hate
 cls
 echo But I Love You.. :(
-start "" "https://www.youtube.com/watch?v=mzB1VGEGcSU&pp=ygUMbHVjaWQgZHJlYW1z"
+:hate
+cls
+echo But I Love You.. :(
+start "" "https://www.youtube.com/watch?v=mzB1VGEGcSU&t=24s&pp=ygUMbHVjaWQgZHJlYW1z"
 pause
